@@ -228,7 +228,7 @@ runs:
 
     - name: VS2022 Compatibility Setup
       if: runner.os == 'Windows'
-      uses: compnerd/gha-setup-vsdevenv@a8b61f50b4ba55489b9ff4b1ccfbe65acb028b32 # v5
+      uses: z2oh/gha-setup-vsdevenv@c7b31cb
 
     - name: VS2022 Compatibility Installation
       if: runner.os == 'Windows'
