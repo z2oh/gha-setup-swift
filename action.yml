@@ -228,7 +228,7 @@ runs:
 
     - name: VS2022 Compatibility Setup
       if: runner.os == 'Windows'
-      uses: z2oh/gha-setup-vsdevenv@preserve-path
+      uses: z2oh/gha-setup-vsdevenv@jeremy/preserve-path
 
     - name: VS2022 Compatibility Installation
       if: runner.os == 'Windows'
